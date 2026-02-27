@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sulfuric Acid Plant – Dashboard</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<nav>
+<div class="logo">Sulfuric Acid Plant</div>
+<ul>
+<li><a href="index.html">Dashboard</a></li>
+<li><a href="process.html">Process</a></li>
+<li><a href="materials.html">Materials</a></li>
+<li><a href="capital.html">Capital</a></li>
+<li><a href="finance.html">Finance</a></li>
+<li><a href="sensitivity.html">Sensitivity</a></li>
+<li><a href="risk.html">Risk</a></li>
+</ul>
+</nav>
+
+<section class="hero">
+<h1>1000 TPD Sulfuric Acid Plant</h1>
+<p>Interactive Engineering & Financial Simulation</p>
+</section>
+
+<section class="cards">
+
+<div class="card">
+<h3>Daily Capacity</h3>
+<p>1000 ton/day</p>
+</div>
+
+<div class="card">
+<h3>Annual Production</h3>
+<p>330,000 ton/year</p>
+</div>
+
+<div class="card">
+<h3>Total Capital Investment</h3>
+<p>Rp 1.127 T</p>
+</div>
+
+<div class="card">
+<h3>Net Profit</h3>
+<p>Rp 94.5 B/year</p>
+</div>
+
+<div class="card">
+<h3>Payback Period</h3>
+<p>10.3 Years</p>
+</div>
+
+<div class="card">
+<h3>Break Even</h3>
+<p>56% Capacity</p>
+</div>
+
+</section>
+
+<section class="charts">
+
+<div class="chart-container">
+<h2>10-Year Cashflow Projection</h2>
+<canvas id="cashChart"></canvas>
+</div>
+
+<div class="chart-container">
+<h2>Break Even Analysis</h2>
+<canvas id="bepChart"></canvas>
+</div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
